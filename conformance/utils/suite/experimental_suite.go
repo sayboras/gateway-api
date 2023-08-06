@@ -1,6 +1,3 @@
-//go:build experimental
-// +build experimental
-
 /*
 Copyright 2023 The Kubernetes Authors.
 
@@ -29,6 +26,7 @@ import (
 
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/util/sets"
+
 	"sigs.k8s.io/gateway-api/conformance"
 	confv1a1 "sigs.k8s.io/gateway-api/conformance/apis/v1alpha1"
 	"sigs.k8s.io/gateway-api/conformance/utils/config"
@@ -40,7 +38,7 @@ import (
 // Conformance Test Suite - Public Types
 // -----------------------------------------------------------------------------
 
-// ConformanceTestSuite defines the test suite used to run Gateway API
+// ExperimentalConformanceTestSuite defines the test suite used to run Gateway API
 // conformance tests.
 // This is experimental for now and can be used as an alternative to the
 // ConformanceTestSuite. Once this won't be experimental any longer,

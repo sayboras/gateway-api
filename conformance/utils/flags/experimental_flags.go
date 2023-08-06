@@ -1,6 +1,3 @@
-//go:build experimental
-// +build experimental
-
 /*
 Copyright 2023 The Kubernetes Authors.
 
@@ -17,7 +14,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-// flags contains command-line flag definitions for the conformance
+// Package flags contains command-line flag definitions for the conformance
 // profile certification. They're in this package so they can be shared
 // among the various suites that are all run by the same Makefile invocation.
 package flags
